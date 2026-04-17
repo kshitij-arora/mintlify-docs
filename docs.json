@@ -1,5 +1,6 @@
 {
   "name": "Monad Documentation",
+  "theme": "mint",
   "colors": {
     "primary": "#836EF9",
     "light": "#a78bfa",
