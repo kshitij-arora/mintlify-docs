@@ -6,70 +6,72 @@
     "light": "#a78bfa",
     "dark": "#6d28d9"
   },
-  "tabs": [
-    {
-      "name": "Guides",
-      "url": "guides"
-    },
-    {
-      "name": "Reference",
-      "url": "reference"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "docs/getting-started"
-      ]
-    },
-    {
-      "group": "Core Platform",
-      "pages": [
-        "guides/home",
-        "guides/navigation"
-      ]
-    },
-    {
-      "group": "Ecosystem & Community",
-      "pages": [
-        "guides/ecosystem",
-        "guides/events",
-        "guides/media",
-        "guides/announcements",
-        "guides/newsletter"
-      ]
-    },
-    {
-      "group": "Developers",
-      "pages": [
-        "guides/build",
-        "guides/developer-portal",
-        "guides/infra-directory"
-      ]
-    },
-    {
-      "group": "Institutions & Enterprise",
-      "pages": [
-        "guides/institutions"
-      ]
-    },
-    {
-      "group": "Resources & Brand",
-      "pages": [
-        "guides/brand-kit"
-      ]
-    },
-    {
-      "group": "Reference",
-      "pages": [
-        "reference/sitemap",
-        "reference/url-map",
-        "reference/permissions",
-        "reference/keyboard-shortcuts",
-        "reference/glossary"
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "docs/getting-started"
+            ]
+          },
+          {
+            "group": "Core Platform",
+            "pages": [
+              "guides/home",
+              "guides/navigation"
+            ]
+          },
+          {
+            "group": "Ecosystem & Community",
+            "pages": [
+              "guides/ecosystem",
+              "guides/events",
+              "guides/media",
+              "guides/announcements",
+              "guides/newsletter"
+            ]
+          },
+          {
+            "group": "Developers",
+            "pages": [
+              "guides/build",
+              "guides/developer-portal",
+              "guides/infra-directory"
+            ]
+          },
+          {
+            "group": "Institutions & Enterprise",
+            "pages": [
+              "guides/institutions"
+            ]
+          },
+          {
+            "group": "Resources & Brand",
+            "pages": [
+              "guides/brand-kit"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/sitemap",
+              "reference/url-map",
+              "reference/permissions",
+              "reference/keyboard-shortcuts",
+              "reference/glossary"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
