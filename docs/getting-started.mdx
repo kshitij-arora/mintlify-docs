@@ -1,0 +1,80 @@
+---
+title: Getting Started
+description: Core concepts, key metrics, and first steps for understanding Monad.
+---
+
+## Overview
+
+Monad is a Layer 1 blockchain designed for high throughput while maintaining full compatibility with the Ethereum Virtual Machine (EVM). This page covers the core concepts, performance characteristics, and recommended starting points.
+
+## Core Concepts
+
+### EVM Compatibility
+
+Monad is 100% EVM-compatible. Existing Ethereum smart contracts, tools, and wallets work on Monad without modification. Developers can deploy Solidity contracts and use standard Ethereum tooling (Hardhat, Foundry, ethers.js) directly.
+
+### Throughput (TPS)
+
+Monad processes 10,000 transactions per second. This is achieved through pipelined execution and optimistic parallel processing of transactions within each block.
+
+### Finality
+
+Transactions on Monad reach finality in 0.8 seconds. Block times are 0.4 seconds, meaning two blocks are produced per second.
+
+### Validators
+
+The network operates with 200+ validators, supporting decentralization without sacrificing performance. Monad uses a BFT-based consensus mechanism with RaptorCast for efficient block propagation.
+
+## Key Metrics
+
+| Metric | Value |
+|---|---|
+| Transactions per second | 10,000 |
+| Block time | 0.4 seconds |
+| Finality | 0.8 seconds |
+| EVM compatibility | 100% |
+| Validators | 200+ |
+
+## First Steps
+
+<Steps>
+  <Step title="Explore the Homepage">
+    Visit [monad.xyz](https://monad.xyz) to understand the platform's value proposition. See the [Homepage Walkthrough](/guides/home) for a guided tour.
+  </Step>
+  <Step title="Review the Documentation">
+    Access technical documentation at [docs.monad.xyz](https://docs.monad.xyz) for protocol specifications, RPC endpoints, and contract deployment guides.
+  </Step>
+  <Step title="Set Up Your Development Environment">
+    Visit the [Developer Portal](https://developers.monad.xyz) to configure your toolchain. Standard Ethereum development tools are supported.
+  </Step>
+  <Step title="Browse the Infrastructure Directory">
+    Explore 209+ tools and services in the [Infrastructure Directory](/guides/infra-directory) to find RPCs, oracles, indexers, and other building blocks.
+  </Step>
+  <Step title="Join the Community">
+    Connect via [Discord](https://discord.gg/monad) and [X (Twitter)](https://x.com/moaboratory) for updates, support, and ecosystem discussions.
+  </Step>
+</Steps>
+
+## Recommended Reading
+
+<CardGroup cols={2}>
+  <Card title="Build on Monad" icon="hammer" href="/guides/build">
+    Developer programs and resources
+  </Card>
+  <Card title="Ecosystem" icon="globe" href="/guides/ecosystem">
+    Apps, explorers, and community tools
+  </Card>
+  <Card title="Institutions" icon="building" href="/guides/institutions">
+    Enterprise and institutional use cases
+  </Card>
+  <Card title="Developer Portal" icon="code" href="/guides/developer-portal">
+    Technical docs, hackathons, and research
+  </Card>
+</CardGroup>
+
+## Related
+
+- [Homepage Walkthrough](/guides/home) — Visual tour of monad.xyz
+- [Navigation](/guides/navigation) — Site structure and menu layout
+- [Build](/guides/build) — Developer programs and tools
+- [Ecosystem](/guides/ecosystem) — Ecosystem overview and block explorers

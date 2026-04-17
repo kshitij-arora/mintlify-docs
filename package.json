@@ -1,0 +1,8 @@
+{
+  "name": "monad-docs",
+  "private": true,
+  "scripts": {
+    "dev": "npx mintlify@latest dev",
+    "build": "npx mintlify@latest build"
+  }
+}
